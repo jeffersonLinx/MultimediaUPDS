@@ -1,11 +1,47 @@
+.leer
 1.-CARPETA DE MODELACION DE ESTRUCTURA DE LA UPDS (ModeloEstructura)
-	1.1.- PLANTA-A
-	1.2.- PLANTA-B
-	1.3.- PLANTA-C
-	1.4.- PLANTA-D
+/........
+	/ 1.1.- PLANTA-A	"CARLOS"
+	/1.2.- PLANTA-B		"CARLOS"
+	/1.3.- PLANTA-C		"SAMUEL"
+	/1.4.- PLANTA-D		"SAMUEL"
 2.-CAPETA DE MODELA DE OBJETOS DE LA UPDS (ModeloObjetos)
-	2.1.-OBJETOS DE CAFETERIA ------ObjCafeteria
-	2.2.-OBJETOS DE AULAS DE MEDICINA-------ObjMedicina
-	2.3.-OBJETOS DE LABORATORIOS DE SISTEMA----ObjLaboratorios
-	2.4.-OBJETOS DE LABORATORIOS DE ING INDUSTRIAL------ObjIndustrial
-	2.5.-OBJETOS DE PASILLOS ---------ObjPasillos
+/.......
+	/2.1.-OBJETOS DE CAFETERIA ------ObjCafeteria   "ELMAR"
+	/2.2.-OBJETOS DE AULAS DE MEDICINA-------ObjMedicina  "ELMAR"
+	/2.3.-OBJETOS DE LABORATORIOS DE SISTEMA----ObjLaboratorios	"EDUARDO"
+	/2.4.-OBJETOS DE LABORATORIOS DE ING INDUSTRIAL------ObjIndustrial	"GIORGIO"
+	/2.5.-OBJETOS DE PASILLOS ---------ObjPasillos	"JEFFERSON"
+	/2.6.-OBJETOS DE BAÑOS ------ObjBaños	"ARAMAYO"
+
+--------------------------------------------------------------------
+---COMADOS PARA DESCAGAR LAS ACTUALISACIONES DEL REPOSITORIO REMOTO 
+...................................................................
+: Verifica y descarga los cambios del remoto sin aplicar.
+TERMINAL >> git fetch
+
+: Te indica si tu rama local está detrás del remoto.
+TERMINAL >> git status
+
+: Muestra los commits nuevos en el remoto.
+TERMINAL >> git log HEAD..origin/main
+
+: Descarga y aplica los cambios del remoto a tu rama local.
+TERMINAL >> git pull
+
+-------------------------------------------------------------------
+---COMANDOS PARA ACTUALIAR EL PROYECTO LOCAL GIT POR CMD
+-------------------------------------------------------------------
+TERMINAL >> git add . 
+TERMINAL >> git commit -m "se agrego mi cambio tal"
+TERMINAL >> git push -u origin main
+-------------------------------------------------------------------
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::REGLAS::::::::::::::::::::::::::::::::::::::::::
+1.-SE DEBERA TRABAJAR EXTRICTAMENTE EN LA CARPETA ASIGNADA
+2.- NO BORRAR NI MOVER NADA
+3.- NO AGREGAR IMAGENES
+4.- ACTUALIZAR LA CARPETA ANTES DE ANTES DE TRABAJAR EN SU ARCHIVO
+5.- CONFIRMAR AL CUANDO SE HAGA UN COMMIT DEL PROYECTO 
+
+
+
